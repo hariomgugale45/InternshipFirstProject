@@ -1,0 +1,126 @@
+body{
+    background:#0f0f1a;
+    color:white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Glass Navbar */
+.glass-nav{
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* Hero */
+.hero-section{
+    min-height:100vh;
+    background: linear-gradient(120deg,#6a11cb,#2575fc,#ff512f);
+    background-size: 400% 400%;
+    animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove{
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.hero-title{
+    font-size:3rem;
+    font-weight:700;
+}
+
+.hero-btn{
+    background:white;
+    color:black;
+    border-radius:30px;
+    padding:10px 30px;
+    transition:0.3s;
+}
+
+.hero-btn:hover{
+    transform:scale(1.1);
+}
+
+/* Products */
+.section-title{
+    font-weight:700;
+}
+
+.product-card{
+    background: rgba(255,255,255,0.08);
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    transition:0.4s;
+    backdrop-filter: blur(10px);
+}
+
+.product-card:hover{
+    transform:translateY(-15px) scale(1.03);
+    box-shadow:0 0 30px rgba(0,255,255,0.3);
+}
+
+.price{
+    font-size:1.3rem;
+    font-weight:600;
+}
+
+.add-btn{
+    background:linear-gradient(to right,#00f2fe,#4facfe);
+    color:black;
+    border-radius:20px;
+}
+
+/* Cart */
+.cart-box{
+    background:white;
+    color:black;
+    padding:6px 12px;
+    border-radius:20px;
+    font-weight:600;
+}
+
+/* Subscribe */
+.subscribe-section{
+    background:linear-gradient(to right,#141e30,#243b55);
+    padding:80px 20px;
+}
+
+.subscribe-box{
+    margin-top:20px;
+}
+
+.subscribe-box input{
+    padding:10px;
+    border-radius:20px;
+    border:none;
+    width:250px;
+}
+
+.subscribe-box button{
+    padding:10px 20px;
+    border-radius:20px;
+    border:none;
+    background:#00f2fe;
+    font-weight:600;
+}
+footer {
+  background: #111;
+  color: #aaa;
+}
+
+footer strong {
+  color: #fff;
+}
+.hero strong {
+  color: #ffd369;
+}
+.footer {
+  background-color: #0f0f0f;
+  color: #bdbdbd;
+  font-size: 14px;
+}
+
+.footer strong {
+  color: #ffffff;
+}
